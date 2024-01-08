@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* common classes  */
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 2px;
+  margin-top: 120px;
+}
+
+/* banner section  */
+.banner {
+  background-image: url("./images/banner.png"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 177px 0;
+}
+
+.banner h2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+}
+
+/* offer section  */
+
+.offer h3 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.offer p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 48px;
+}
+.offer h4 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+}
+.offer-image {
+  display: flex;
+  justify-content: center;
+}
+.offer-image img {
+  width: 802.9px;
+  height: 500px;
+  margin: 48px auto;
+}
+
+/* welcome section  */
+.welcome {
+  background-image: url("./images/wecome-bg.png"),
+    linear-gradient(to right, rgba(0, 0, 0), rgba(0, 0, 0, 0));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 126px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+.welcome p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 28px;
+}
+
+.welcome button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: transparent;
+  border: 0;
+  margin-top: 48px;
+}
+
+.welcome img {
+  display: flex;
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* places section  */
+
+.places {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.places {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  padding: 100px 0;
+}
+.places span {
+  color: #f00;
+}
+
+.places button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  margin-top: 48px;
+}
+
+/* best  offer section  */
+.best-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.best-offer .left h4 {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.best-offer .left h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 22px;
+}
+.best-offer .left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 22px;
+}
+
+.best-offer .middle img {
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+  border: 40px solid transparent;
+  border-radius: 463px;
+  outline: 15px solid #f00;
+}
+
+.best-offer .right h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.best-offer .right h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.best-offer .right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 20px;
+}
+.best-offer .right img {
+  width: 140px;
+  height: 140px;
+  margin-top: 40px;
+}
+
+/* sale section  */
+
+.sale p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 28px;
+}
+.sale h2 {
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 15px;
+}
+.sale h2 span {
+  color: #f00;
+}
+.sale h5 {
+  color: #070211;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.sale .sale-banner img {
+  width: 1320px;
+  margin-top: 20px;
+}
+
+/* gift section  */
+.gift h5 {
+  color: #f00;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.gift h2 {
+  color: #070211;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.gift p {
+  color: rgba(7, 2, 17, 0.6);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 10px;
+}
+.gift .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 48px;
+}
+
+/* Subscribe section  */
+.subscribe {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 80px 0;
+}
+.subscribe img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+.subscribe h2 {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.subscribe p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.subscribe .subscribe-input {
+  width: 60%;
+  height: 72px;
+  display: flex;
+  background: white;
+  border-radius: 50px;
+  margin-top: 48px;
+}
+.subscribe .subscribe-input input {
+  font-size: 18px;
+  width: 70%;
+  height: 100%;
+  border-radius: 50px 0px 0px 50px;
+  padding: 0 20px;
+  outline: 0;
+  border: 0;
+}
+.subscribe .subscribe-input button {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  width: 30%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  border: 0;
+}
